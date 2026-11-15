@@ -1,4 +1,4 @@
-# letshum-com
+# Hum
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-letshum-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://letshum.com/
+Hum provides an embeddable internet marketplace platform that lets resident‑focused apps search, compare, and order broadband services without leaving the app. By abstracting provider‑specific plans, pricing, and activation flows, Hum enables white‑label, provider‑neutral integrations that generate revenue for app owners through commissions on activations.
+
+**Areas:** Internet · Marketplace · White-label · Real-estate · SaaS
+
+## Hum on APIs.io
+
+Everything profiled for Hum is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/letshum-com/](https://apis.io/providers/letshum-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Hum API](https://apis.io/apis/letshum-com/hum-api/) — Hum API for creating sessions and managing internet service orders.
+- [Hum API](https://apis.io/apis/letshum-com/letshum-com-api/) — Hum API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-11-15); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Letshum Com Webhooks](https://apis.io/asyncapis/letshum-com/letshum-com-webhooks/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [DeleteSessionsTokenResponse](https://apis.io/schemas/letshum-com/letshum-com-delete-sessions-token-response/)
+- [GetAnalyticsSessionsIdResponse](https://apis.io/schemas/letshum-com/letshum-com-get-analytics-sessions-id-response/)
+- [GetPingResponse](https://apis.io/schemas/letshum-com/letshum-com-get-ping-response/)
+- [GetSessionsTokenServicesInternetResponse](https://apis.io/schemas/letshum-com/letshum-com-get-sessions-token-services-internet-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Letshum Com Context](https://apis.io/jsonld/letshum-com/letshum-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hum API Rules](https://apis.io/rules/letshum-com/letshum-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hum Authentication](https://apis.io/security/letshum-com/letshum-com-authentication/)
+- [Hum Domain Security](https://apis.io/security/letshum-com/letshum-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://letshum.com/)
+- [Documentation](https://docs.letshum.com/)
+- [Getting started](https://letshum.com/book-demo/)
+- [API reference](https://docs.letshum.com/api-integration)
+- [Terms of service](https://letshum.com/terms-of-service/)
+- [Privacy policy](https://letshum.com/privacy-policy/)
+- [GitHub](https://github.com/letshum)
+- [Status](https://status.letshum.com/)
+
+## API Evangelist rating
+
+**Kin Score 50.9** — developing · rubric 0.27.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 57.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 44.7 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 36.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/letshum-com/](https://apis.io/providers/letshum-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hum: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/letshum-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
